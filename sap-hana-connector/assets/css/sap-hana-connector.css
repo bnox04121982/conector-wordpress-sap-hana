@@ -1,0 +1,113 @@
+/* Estilos generales */
+.wrap.sap-hana-connector {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.sap-hana-connector h1 {
+    color: #23282d;
+    margin-bottom: 20px;
+}
+
+.sap-hana-connector h1 .dashicons {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Formularios */
+.sap-hana-admin-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.sap-hana-admin-form {
+    flex: 2;
+}
+
+.sap-hana-test-form {
+    flex: 1;
+    background: #f7f7f7;
+    padding: 15px;
+    border-left: 4px solid #0073aa;
+}
+
+/* Tablas y campos */
+.form-table th {
+    width: 200px;
+}
+
+.regular-text {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Botón mostrar contraseña */
+.toggle-password {
+    margin-left: 10px;
+}
+
+/* Sección de consultas */
+.sap-hana-query-box {
+    background: #f7f7f7;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.sap-hana-query-results {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+/* Spinner */
+.spinner.sap-hana-spinner {
+    display: inline-block;
+    float: none;
+    margin-left: 10px;
+}
+
+/* Resultados de consultas */
+.sap-hana-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+.sap-hana-table th {
+    background: #23282d;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+.sap-hana-table td {
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+}
+
+.sap-hana-table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Estadísticas */
+.sap-hana-stats {
+    background: #f7f7f7;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 4px solid #0073aa;
+}
+
+.sap-hana-stats h3 {
+    margin-top: 0;
+}
+
+/* Responsive */
+@media (max-width: 782px) {
+    .sap-hana-admin-container {
+        flex-direction: column;
+    }
+}
